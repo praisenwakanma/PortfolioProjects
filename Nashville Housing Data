@@ -3,7 +3,7 @@
 select * from PortfolioProject.dbo.NashvilleHousing
 
 --------------------------------------------------------------------------------------------------------------------------------------------
--- standardizing Date Format
+-- Standardizing Date Format
 
 select SaleDate, convert(date, SaleDate) 
 From PortfolioProject.dbo.NashvilleHousing
